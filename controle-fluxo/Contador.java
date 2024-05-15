@@ -16,8 +16,9 @@ public class Contador {
 			contar(parametroUm,  parametroDois);
 			System.out.println(" ");
 		} catch (ParametrosInvalidosException e) {
-			e.printStackTrace();		
+			e.printStackTrace();;
 		}
+
 		
 		scanner.close();
 	}
