@@ -5,11 +5,10 @@ public class VerificadorNumeroConta {
     public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in); 
     
-    try{System.out.print("Digitte o número da conta bancária: ");
+    try{System.out.print("Digite o número da conta bancária: ");
         String numeroConta = scanner.nextLine();
         verificarNumeroConta(numeroConta);
-        //System.out.println("Numero de conta valido.");
-      
+             
         }catch (IllegalArgumentException e){
         System.out.println("Erro: " + e.getMessage());
         } finally {
