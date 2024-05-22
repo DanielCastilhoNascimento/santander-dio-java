@@ -1,6 +1,6 @@
-package orientacao-a-objetos;
+package orientacaoaobjetos.lanchonete;
 
-public class Almoxarife {
+public class Atendente {
     public void servindoMesa() {
 		//...?
 		System.out.println("SERVINDO A MESA");

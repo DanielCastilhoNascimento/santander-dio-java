@@ -1,3 +1,6 @@
+
+package orientacaoaobjetos.lanchonete;
+
 public class Estabelecimento {
 
     public static void main(String[] args) {

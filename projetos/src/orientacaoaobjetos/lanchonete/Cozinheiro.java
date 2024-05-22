@@ -1,4 +1,4 @@
-package orientacao-a-objetos;
+package orientacaoaobjetos.lanchonete;
 
 public class Cozinheiro {
     	//pode ser default
