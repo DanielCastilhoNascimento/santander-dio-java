@@ -1,9 +1,11 @@
 package orientacaoaobjetos.lanchonete.area.cliente;
 
+import java.util.Scanner;
+
 public class Cliente {
 
     public void escolherLanche() {
-		System.out.println("ESCOLHENDO O LANCHE");
+
 	}
 	public void fazerPedido() {
 		System.out.println("FAZENDO O PEDIDO");
