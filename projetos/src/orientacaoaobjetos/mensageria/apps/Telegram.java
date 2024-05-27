@@ -1,7 +1,8 @@
-package orientacaoaobjetos.mensageria;
+package orientacaoaobjetos.mensageria.apps;
 
 public class Telegram extends ServicoMensageria{
     public void enviarMensagem() {
+		validarConectadoInternet();
 		System.out.println("Enviando mensagem pelo Telegram");
 	}
 	public void receberMensagem() {

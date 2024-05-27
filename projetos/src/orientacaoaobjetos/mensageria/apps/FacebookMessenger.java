@@ -1,7 +1,8 @@
-package orientacaoaobjetos.mensageria;
+package orientacaoaobjetos.mensageria.apps;
 
 public class FacebookMessenger extends ServicoMensageria{
     public void enviarMensagem() {
+		validarConectadoInternet();
 		System.out.println("Enviando mensagem pelo Facebook Messenger");
 	}
 	public void receberMensagem() {

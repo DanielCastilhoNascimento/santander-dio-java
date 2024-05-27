@@ -1,4 +1,5 @@
-# Exemplo de 3 Pilares OO (São 4 com o Polimorfismo)
+# Exemplo de 3 Pilares OO
     Encapsulamento
     Herança
     Abstração
+    Polimorfismo
