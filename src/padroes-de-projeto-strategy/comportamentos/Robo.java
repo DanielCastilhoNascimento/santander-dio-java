@@ -1,4 +1,6 @@
+package comportamentos;
 public class Robo {
+    
     private Comportamento comportamento;
 
     public void setComportamento(Comportamento comportamento){
@@ -6,6 +8,6 @@ public class Robo {
     }
 
     public void mover(){
-        comportamento.mover();
+       comportamento.mover();
     }
 }

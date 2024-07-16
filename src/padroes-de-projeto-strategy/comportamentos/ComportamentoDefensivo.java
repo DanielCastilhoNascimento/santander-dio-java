@@ -1,4 +1,7 @@
-public class ComportamentoDefensivo {
+package comportamentos;
+
+public class ComportamentoDefensivo implements Comportamento{
+
     @Override
     public void mover(){
         System.out.println("Movendo Defensivamente");
