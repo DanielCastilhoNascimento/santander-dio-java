@@ -22,7 +22,7 @@ public class TestandoStrategy {
         robo.setComportamento(defensivo);
         robo.setComportamento(agressivo);
 
-        sysout("=================")
+        System.out.println("=================");
 
 
     }
